@@ -21,3 +21,12 @@ body{
 .navbar-toggler{
   background-color: aliceblue;
 }
+.section-title{
+  font-family: pacifico;
+}
+.section-title span{
+  color: orangered;
+}
+#sobre-o-restaurante{
+  background-color: antiquewhite;
+}

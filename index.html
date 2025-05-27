@@ -13,7 +13,7 @@
 
 </head>
 <body>
-  <header class="navbar navbar-expand-lg sticky-top p-4">
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
     <div class="container">
       <h1 class="navbar-brand m-0">Titulo Site</h1>
 
@@ -24,7 +24,7 @@
       <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
         <ul class="nav nav-pills d-block d-md-flex">
           <li class="nav-item fw-bold">
-            <a href="#"class="nav-link active"><i class="bi bi-house-door me-1"></i>Sobre</a>
+            <a href="#sobre-o-restaurante"class="nav-link"><i class="bi bi-house-door me-1"></i>Sobre</a>
           </li>
            <li class="nav-item fw-bold">
             <a href="#" class="nav-link"><i class="bi bi-calendar-check me-1"></i>Eventos</a>
@@ -40,8 +40,8 @@
 
     </div>
   </header>
-
-  <section id="sobre-o-restaurante">
+<div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <section id="sobre-o-restaurante">
     <div class="carousel slide" data-bs-ride="carousel" id="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
@@ -61,10 +61,47 @@
         <span class="carousel-control-next-icon"></span>
       </button>
 
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" ></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" ></button>
+      </div>
+
     </div>
+    <div class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="images/restaurante.jpg" alt="" class="d-block w-100 rounded ">
+          </div>
+          <div class="col-md-7">
+            <h2 class="section-title"> Sobre <span> o Restaurante</span></h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores error eos, mollitia, qui ipsam molestiae nihil quia eius rerum quos magnam ipsum aspernatur, cumque modi consequatur accusamus illum voluptate ut?
+            </p>
+            <h3 class="section-title">Sobre <span>o Espaço</span></h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et consequatur commodi ratione voluptas adipisci a! Provident dignissimos reiciendis animi quidem dicta repellendus quas, minus fugit, corporis error iusto. Necessitatibus?
+            </p>
+
+            <ul>
+              <li>item 1</li>
+              <li>item 2</li>
+              <li>item 3</li>
+
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
 
   </section>
 
+</div>
 
 <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
