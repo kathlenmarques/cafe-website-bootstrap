@@ -15,7 +15,7 @@
 <body>
   <header class="navbar navbar-expand-lg sticky-top p-4">
     <div class="container">
-      <h1 class="navbar-brand">Titulo Site</h1>
+      <h1 class="navbar-brand m-0">Titulo Site</h1>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
         <span class="navbar-toggler-icon"></span>
@@ -41,8 +41,29 @@
     </div>
   </header>
 
-  <div class="container">
-  </div>
+  <section id="sobre-o-restaurante">
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="images/slides/slide1.png" alt="Foto do espaço interior do restaurante" >
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="images/slides/slide2.png" alt="Duas taças de vinho">
+        </div><div class="carousel-item" data-bs-interval="3000">
+          <img src="images/slides/slide3.png" alt="Foto dos pratos do restaurante" >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+
+  </section>
 
 
 <script src="lib/bootstrap.bundle.min.js"></script>
