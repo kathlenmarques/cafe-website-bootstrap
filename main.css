@@ -1,32 +1,75 @@
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: roboto, sans-serif;
+
 }
+
 .navbar{
-  background-color: orangered;
+  background-color: rgb(21, 63, 25);
 }
 .nav .nav-link.active{
   background-color: white;
-  color: orangered;
+  color:rgb(21, 63, 25);
 }
-.nav .nav-link ,
+.nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover{
   color: white;
 
 }
 .navbar-brand{
-  font-family: pacifico, cursive;
+  font-family: anton, cursive;
 }
 .navbar-toggler{
   background-color: aliceblue;
 }
+
 .section-title{
-  font-family: pacifico;
+  font-family: anton;
 }
 .section-title span{
-  color: orangered;
+  color: rgb(21, 63, 25);
 }
-#sobre-o-restaurante{
-  background-color: antiquewhite;
+#sobre-o-cafe, #cardapio{
+  background-color: rgb(231, 250, 215);
+}
+.text-colored{
+    color: rgb(21, 63, 25);
+}
+aside .nav-link.text-colored {
+  color: rgb(21, 63, 25);
+}
+#eventos img{
+  margin-bottom: 20px;
+}
+
+.nav-cardapio .nav-link.active{
+  background-color:  rgb(21, 63, 25);
+  color: white;
+}
+.social-links li {
+  list-style: none;
+  display: inline;
+  margin-left: 5px;
+}
+.social-links a{
+    text-decoration: none;
+
+}
+.btn, .btn:hover{
+  background-color: rgb(21, 63, 25);
+  color: white;
+  font-weight: bold;
+}
+#cardapio{
+  padding-bottom: 3%;
+  padding-top: 2%;
+}
+
+@media (max-width: 767px){
+  .carousel-item img{
+    height: 280px;
+  }
 }
